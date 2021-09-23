@@ -36,6 +36,6 @@ function lookUpProfile(name, prop) {
 
 }
 
-var data = lookUpProfile("Akira", "likes");
+var data = lookUpProfile("Sherlock", "lastName");
 
 console.log(data);
