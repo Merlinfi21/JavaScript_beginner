@@ -1,0 +1,10 @@
+div{
+    border: 200px;
+    background-color: green;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-size: 200px;
+    border-radius: 50px;
+    opacity: 0.7;
+}
