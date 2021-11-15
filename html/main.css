@@ -1,3 +1,20 @@
-.navbar-ver {
+.sick {
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 400px;
+    border-radius: 50px;
+    margin: 20px;
+    box-shadow: 2px 5px 2px 5px grey;
     
+}
+.container {
+    background-color: burlywood;
+    height: 200px;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 5px 2px 5px grey;
+}
+#hide {
+    background-color: chartreuse;
 }
