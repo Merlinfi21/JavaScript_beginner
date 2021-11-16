@@ -7,21 +7,19 @@
   gap: 10px;
 }
 .image-container {
-    width: 100px;
-    height: 720px;
-    object-fit: cover;
-    border-radius: 25px;
-    gap: 20px;
-    -webkit-filter: sepia(100%);
-	filter: sepia(100%);
-	-webkit-transition: .8s ease-in-out;
-	transition: .8s ease-in-out;
-
+  width: 100px;
+  height: 720px;
+  object-fit: cover;
+  border-radius: 25px;
+  gap: 20px;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 .image-container:hover {
-    transition: width 2s;
-    width: 70%;
-    -webkit-filter: sepia(0);
-	filter: sepia(0);
-    
+  transition: width 2s;
+  width: 70%;
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
 }
