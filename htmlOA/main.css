@@ -1,4 +1,4 @@
-.images {
+#image-container {
   display: flex;
   justify-content: center;
   justify-content: space;
@@ -6,7 +6,7 @@
   transition: all 1.8s ease-in;
   gap: 10px;
 }
-.image-container {
+.images {
   width: 100px;
   height: 720px;
   object-fit: cover;
@@ -17,7 +17,7 @@
   -webkit-transition: 0.8s ease-in-out;
   transition: 0.8s ease-in-out;
 }
-.image-container:hover {
+.images-open {
   transition: width 2s;
   width: 70%;
   -webkit-filter: sepia(0);
